@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		/* Modify */
+		.form-control-tema {
+			padding: 1.2rem;
+			font-size: 1rem;
+			text-transform: uppercase;
+			border-width: 3px;
+		}
+		/* Style */
+		.form-control-tema:focus{
+			border-color: #2ecc71; 
+			background-color: #f3f3f3;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<br>
+		<h1>Tradicional</h1>
+		<input type="text" name="nome" class="form-control" placeholder="insira seu nome">
+		<hr>
+		<br><br><br>
+		
+		<h1>Modificado</h1>
+		<input type="text" name="nome" class="form-control form-control-tema" placeholder="insira seu nome">
+		<hr>
+		<br><br><br>
+
+	</div>
+
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/tether/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

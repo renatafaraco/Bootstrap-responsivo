@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		/* Modify */
+		.card.no-top-radius{
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+		.card-tema,
+		.card-tema .card-header{
+			border-radius: 0;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+		.card-tema .card-header{
+			padding: 2rem;			
+		}
+		/* Style */
+		.card-tema {
+			border-color: #bdc3c7;
+		}
+		.card-tema .card-header {
+			background-color: #FFF;
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<br>
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="card card-tema">
+				<div class="card-header" role="tab" id="headingOne">
+					<h5 class="mb-0">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-control="collapseOne">
+							Collapse Group Item #1
+						</a>
+					</h5>
+				</div>
+				<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+					<div class="card-block">
+						Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. Pellentesque ipsum. Nulla
+					</div>
+				</div>
+			</div>
+			<div class="card card-tema no-top-radius">
+				<div class="card-header" role="tab" id="headingTwo">
+					<h5 class="mb-0">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-control="collapseTwo">
+							Collapse Group Item #2
+						</a>
+					</h5>
+				</div>
+				<div id="collapseTwo" class="collapse hidden" role="tabpanel" aria-labelledby="headingTwo">
+					<div class="card-block">
+						Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab" id="headingThree">
+					<h5 class="mb-0">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-control="collapseThree">
+							Collapse Group Item #2
+						</a>
+					</h5>
+				</div>
+				<div id="collapseThree" class="collapse hidden" role="tabpanel" aria-labelledby="headingThree">
+					<div class="card-block">
+						Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/tether/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

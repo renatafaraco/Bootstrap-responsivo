@@ -1,0 +1,17 @@
+{
+  "name": "Bootstrap-refactoring",
+  "authors": [
+    "Renata Faraco Cunha <renatafaraco@gmail.com>"
+  ],
+  "description": "refatoracao",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
